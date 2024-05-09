@@ -1,0 +1,42 @@
+    1  git config --global user.name gribm
+    2  get user.name
+    3  git config --global user.name Maks8080
+    4  git config --get user.name
+    5  git config --global user.email gribmax1996@gmail.com
+    6  git config --get user.email
+    7  git clone https://github.com/Maks8080/HW_10.git
+    8  ls -l
+    9  cd HW_10
+   10  ls -l
+   11  touch text_ignore.txt
+   12  ls -l
+   13  git status
+   14  git add .
+   15  git status
+   16  git commit -m "changes"
+   17  git status
+   18  touch main_test.txt
+   19  ls -l
+   20  git status
+   21  git add .
+   22  git status
+   23  git commit -m "changes1"
+   24  git status
+   25  git checkout -b develop
+   26  git branch
+   27  touch develop_test.txt
+   28  ls -l
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit -m "changes2"
+   33  git status
+   34  git log
+   35  git status
+   36  git add .
+   37  git commit -m "changes3" 
+   38  git checkout main
+   39  git merge develop
+   40  git status
+   41  git log
+   42  history > command_list.csv
